@@ -1,0 +1,13 @@
+Hard Assignment:
+Task: Combine Variables, Nesting, and Color Functions
+Create a card component with the following structure:
+
+<div class="card">
+  <h2>Card Title</h2>
+  <p>Card description text goes here.</p>
+  <a href="#">Read More</a>
+</div>
+
+Use variables for the card’s colors (background, text, and links).
+Nest styles for the h2, p, and a tags inside the .card.
+Add hover effects for the link using the darken() or lighten() function.

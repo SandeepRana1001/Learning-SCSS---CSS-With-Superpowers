@@ -1,0 +1,12 @@
+Medium Assignment:
+Task: Create Nested Styles Using SCSS and Variables
+Create a navigation bar (nav) with the following structure:
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+Use nesting to style the nav, ul, li, and a elements. Include hover effects using the & symbol, and apply variables for colors and font sizes.
