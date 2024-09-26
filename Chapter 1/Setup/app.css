@@ -1,0 +1,8 @@
+.button {
+  background-color: red;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: blue;
+}/*# sourceMappingURL=app.css.map */
