@@ -1,0 +1,7 @@
+Easy Assignment:
+    Task: Create a Simple SCSS File with Variables
+    Create a SCSS file that uses variables to store:
+    A primary color for text.
+    A secondary color for the background.
+    A base font size.
+    Apply these variables to style an h1, a p, and a button element.
