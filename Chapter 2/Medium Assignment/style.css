@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #8e44ad;
+  width: 100%;
+  padding: 10px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+nav ul li {
+  margin: 0px 10px;
+  color: black !important;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

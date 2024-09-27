@@ -1,0 +1,36 @@
+$theme-background: #8e44ad;
+$theme-lists: black;
+$theme-links: white;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: $theme-background;
+  width: 100%;
+  padding: 10px 0;
+
+  ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+
+    li {
+      margin: 0px 10px;
+      color: $theme-lists !important;
+
+      a {
+        color: $theme-links;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: darken($theme-links, 100%);
+        }
+      }
+    }
+  }
+}
