@@ -1,0 +1,16 @@
+h1,
+a,
+p {
+  font-family: "Aptos", sans-serif;
+  color: white;
+  background-color: red;
+}
+
+button {
+  font-family: "Aptos", sans-serif;
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 17px;
+}/*# sourceMappingURL=style.css.map */
