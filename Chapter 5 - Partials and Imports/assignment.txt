@@ -1,0 +1,4 @@
+Task:
+Create Partials: Create three partial files: _variables.scss, _buttons.scss, and _typography.scss.
+
+Import: In the main.scss file, import these three partials in the correct order and use them in some example styles.

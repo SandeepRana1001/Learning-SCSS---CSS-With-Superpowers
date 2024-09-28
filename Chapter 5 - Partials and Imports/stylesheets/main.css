@@ -1,0 +1,12 @@
+button {
+  padding: 7px;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Aptos", sans-serif;
+}
+body button {
+  background-color: aquamarine;
+}/*# sourceMappingURL=main.css.map */
