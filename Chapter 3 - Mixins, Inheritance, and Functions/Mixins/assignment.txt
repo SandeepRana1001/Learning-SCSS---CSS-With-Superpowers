@@ -1,0 +1,3 @@
+Task: Define a Mixin and Use it in Your SCSS
+Create a mixin to style multiple button variations, 
+with parameters for background color, text color, and border radius.

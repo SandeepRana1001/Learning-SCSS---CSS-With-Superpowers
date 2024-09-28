@@ -1,0 +1,43 @@
+button.btn-primary {
+  border: 1px solid #27ae60;
+  width: 10%;
+  padding: 7px;
+  color: #fff;
+  background-color: #27ae60;
+  transition: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button.btn-secondary {
+  border: 1px solid #16a085;
+  width: 10%;
+  padding: 7px;
+  color: #fff;
+  background-color: #16a085;
+  transition: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button.btn-warning {
+  border: 1px solid #f1c40f;
+  width: 10%;
+  padding: 7px;
+  color: black;
+  background-color: #f1c40f;
+  transition: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button.btn-info {
+  border: 1px solid #2980b9;
+  width: 10%;
+  padding: 7px;
+  color: #fff;
+  background-color: #2980b9;
+  transition: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

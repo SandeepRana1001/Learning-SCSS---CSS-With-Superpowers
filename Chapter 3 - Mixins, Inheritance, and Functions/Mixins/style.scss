@@ -1,0 +1,36 @@
+$btn-text-color: #fff;
+$btn-primary: #27ae60;
+$btn-secondary: #16a085;
+$btn-warning: #f1c40f;
+$btn-info: #2980b9;
+
+@mixin button-styles($border-color, $background-color, $text-color) {
+  border: 1px solid $border-color;
+  width: 10%;
+  padding: 7px;
+  color: $text-color;
+  background-color: $background-color;
+  transition: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button.btn-primary {
+  @include button-styles($btn-primary, $btn-primary, $btn-text-color);
+}
+
+button.btn-secondary {
+  @include button-styles($btn-secondary, $btn-secondary, $btn-text-color);
+}
+
+button.btn-warning {
+  @include button-styles(
+    $btn-warning,
+    $btn-warning,
+    darken($btn-text-color, 100)
+  );
+}
+
+button.btn-info {
+  @include button-styles($btn-info, $btn-info, $btn-text-color);
+}

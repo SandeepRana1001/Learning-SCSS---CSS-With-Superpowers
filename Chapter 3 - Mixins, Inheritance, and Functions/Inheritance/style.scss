@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid red;
+  padding: 30px;
+}
+
+.card-primary {
+  @extend .card;
+  background-color: aqua;
+}
+
+.card-secondary {
+  @extend .card;
+  background-color: aquamarine;
+}

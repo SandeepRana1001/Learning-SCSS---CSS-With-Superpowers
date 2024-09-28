@@ -1,0 +1,3 @@
+Create a base class for cards with some common styles (padding, border), 
+and then create two different card types (e.g., .card-primary and .card-secondary) 
+that extend the base class.

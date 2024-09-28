@@ -1,0 +1,33 @@
+$base-font: "Aptos", sans-serif;
+$default-border: #2c3e50;
+$card-background: #c0392b;
+$card-text: #fff;
+$card-link: #f1c40f;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid $default-border;
+  background-color: $card-background;
+
+  h2 {
+    color: $card-text;
+    text-align: center;
+  }
+
+  p {
+    color: $card-text;
+  }
+  a {
+    border: 2px solid $default-border;
+    color: $card-link;
+
+    &:hover {
+      color: darken($card-link, 10%);
+    }
+  }
+}

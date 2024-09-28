@@ -1,0 +1,10 @@
+$base-font-size: 16;
+
+@function calculate-ems($px) {
+  $em: $px/$base-font-size;
+  @return #{$em}em;
+}
+
+p {
+  font-size: calculate-ems(10px);
+}
