@@ -1,0 +1,3 @@
+Task:
+Conditional Logic: Create a SCSS snippet that applies different styles for desktop and mobile screen sizes using the @if directive.
+Loops: Use a loop to generate 5 classes (.box-1 to .box-5), each with incrementally larger padding.

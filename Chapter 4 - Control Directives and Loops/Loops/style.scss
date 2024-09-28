@@ -1,0 +1,12 @@
+.box {
+  border: 2px solid red;
+  //   background-color: aqua;
+  margin: 10px 0;
+}
+
+@for $i from 1 through 5 {
+  .box-#{$i} {
+    padding: 10px * $i;
+    background-color: lighten(aqua, $i * 9%);
+  }
+}

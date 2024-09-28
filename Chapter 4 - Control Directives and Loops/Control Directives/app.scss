@@ -1,0 +1,9 @@
+$user-device: desktop;
+
+body {
+  @if $user-device == mobie {
+    background-color: aqua;
+  } @else if $user-device == desktop {
+    background-color: aquamarine;
+  }
+}

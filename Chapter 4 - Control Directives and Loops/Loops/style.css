@@ -1,0 +1,29 @@
+.box {
+  border: 2px solid red;
+  margin: 10px 0;
+}
+
+.box-1 {
+  padding: 10px;
+  background-color: #2effff;
+}
+
+.box-2 {
+  padding: 20px;
+  background-color: #5cffff;
+}
+
+.box-3 {
+  padding: 30px;
+  background-color: #8affff;
+}
+
+.box-4 {
+  padding: 40px;
+  background-color: #b8ffff;
+}
+
+.box-5 {
+  padding: 50px;
+  background-color: #e6ffff;
+}/*# sourceMappingURL=style.css.map */
